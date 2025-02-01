@@ -60,4 +60,10 @@ setInterval(() =>{
 function scrollToBottom(){
     chatBox.scrollTop = chatBox.scrollHeight;
   }
-  
+
+// window.addEventListener("beforeunload", function (e) {
+// 	// Make an AJAX call to update the user's status to offline
+// 	var xhr = new XMLHttpRequest();
+// 	xhr.open("GET", "php/set-offline.php", true);
+// 	xhr.send();
+// });
